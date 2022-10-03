@@ -8,12 +8,23 @@
 
 内容已在 https://hub.docker.com/r/m0x1n/cyberchef 上传
 
-使用方法：
+# 如何部署
+## 说明
+本项目除了主内容（CyberChef）由原作者gchq更新外，Docker的更新和版本发布均由M0x1n负责。
+## Docker方式：
+本项目已经上传到 Docker Hub，可参考下方内容：<br>
+   https://hub.docker.com/r/m0x1n/cyberchef
 
-docker pull m0x1n/cyberchef:9.46.5
+`docker pull m0x1n/cyberchef:9.46.5`
 
-接着启动你的Docker镜像，端口为80。
+从docker拉取镜像
 
-docker run -p 80:80 -d m0x1n/cyberchef:9.46.5
+`docker run -p 80:80 -d m0x1n/cyberchef:9.46.5`
 
-当然，也可以下载本仓库进行build
+![eg](https://github.com/Moxin1044/CyberChef/blob/main/eg.png)
+
+## 通过Clone本仓库到本地使用
+`git clone https://github.com/Moxin1044/CyberChef.git`
+
+`docker-compose build && docker-compose up -d`
+
