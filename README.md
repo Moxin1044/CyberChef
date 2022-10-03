@@ -10,7 +10,7 @@
 
 使用方法：
 
-docker pull m0x1n/cyberchef 或 docker pull m0x1n/cyberchef:9.46.5
+docker pull m0x1n/cyberchef:9.46.5
 
 接着启动你的Docker镜像，端口为80。
 
