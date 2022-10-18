@@ -21,7 +21,7 @@
 
 `docker run -p 80:80 -d m0x1n/cyberchef:9.46.5`
 
-![eg](https://github.com/Moxin1044/CyberChef/blob/main/eg.png)
+![eg](https://github.com/Moxin1044/CyberChef/eg.png)
 
 ## 通过Clone本仓库到本地使用
 `git clone https://github.com/Moxin1044/CyberChef.git`
