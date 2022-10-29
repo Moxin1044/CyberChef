@@ -16,7 +16,7 @@
    https://hub.docker.com/r/m0x1n/cyberchef
 
 `docker pull m0x1n/cyberchef:9.46.5`
-
+目前已支持ARM与ARM64版本
 从docker拉取镜像
 
 `docker run -p 80:80 -d m0x1n/cyberchef:9.46.5`
