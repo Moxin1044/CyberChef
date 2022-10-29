@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY CyberChef_v9.46.5 /var/www/html
+COPY CyberChef_v9.48.0 /var/www/html
 
 COPY _file /tmp/
 

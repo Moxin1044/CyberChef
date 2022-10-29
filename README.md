@@ -15,11 +15,13 @@
 本项目已经上传到 Docker Hub，可参考下方内容：<br>
    https://hub.docker.com/r/m0x1n/cyberchef
 
-`docker pull m0x1n/cyberchef:9.46.5`
-目前已支持ARM与ARM64版本
+`docker pull m0x1n/cyberchef:9.48.0`
+
+目前已经支持linux/arm64、linux/arm/v7、linux/amd64、linux/386
+
 从docker拉取镜像
 
-`docker run -p 80:80 -d m0x1n/cyberchef:9.46.5`
+`docker run -p 80:80 -d m0x1n/cyberchef:9.48.0`
 
 ![eg](https://github.com/Moxin1044/CyberChef/blob/main/eg.png)
 
